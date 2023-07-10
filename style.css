@@ -47,7 +47,8 @@ body{
 
 /* Main Section */
 
-/* Bonus Section */
+/* Bonus Part */
+
 .bonus-heading{
     text-align: center;
     margin-top: 80px;
@@ -108,7 +109,7 @@ body{
     text-decoration: underline;
 }
 
-/* Sales Section */
+/* Sales Part */
 
 .sales-container{
     border-radius: 8px;
@@ -145,7 +146,7 @@ span{
     text-align: center;
 }
 
-/* Most Selling section */
+/* Most Selling Part */
 
 
 .popular-heading{
@@ -160,7 +161,6 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(71, 125, 17, 0.15); */
     background-image: url("./assets/gradient1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -199,7 +199,7 @@ span{
     border-radius: 8px;
 }
 
-/* Instagram Section */
+/* Instagram Part */
 
 .instagram-description{
     text-align: center;
@@ -230,7 +230,7 @@ span{
     border-radius: 5px;
 }
 
-/* Subscribe Section */
+/* Subscribe Part */
 
 .subscribe{
     text-align: center;
@@ -264,6 +264,7 @@ span{
 }
 
 /* Footer Section */
+
 .footer{
     text-align: center;
     background-color: #1b1a1a;
