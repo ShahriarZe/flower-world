@@ -145,6 +145,60 @@ span{
     text-align: center;
 }
 
+/* Most Selling section */
+
+
+.popular-heading{
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.Popular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(71, 125, 17, 0.15); */
+    background-image: url("./assets/gradient1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+}
+.Popular-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 50px;
+    gap: 80px;
+}
+.popular-description a{
+    font-size: 20px;
+    color: #272727;
+    margin-right: 10px;
+}
+
+.Popular h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+.Popular p{
+    color: #383636;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.popular-image img{
+    width: 300px;
+    border-radius: 8px;
+}
+
 /* Instagram Section */
 
 .instagram-description{
