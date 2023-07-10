@@ -144,3 +144,33 @@ span{
 .sales-description{
     text-align: center;
 }
+
+/* Instagram Section */
+
+.instagram-description{
+    text-align: center;
+    margin-top: 100px;
+}
+.instagram-description h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-description p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.instagram-items{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+    margin-top: 50px;
+}
+.instagram-items img{
+    width: 300px;
+    border-radius: 5px;
+}
