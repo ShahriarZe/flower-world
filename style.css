@@ -33,6 +33,7 @@ body{
     color: rgb(29, 28, 28);
     font-size: 22px;
     font-weight: 400;
+    width: 80%;
 }
 .header-button{
     color: white;
@@ -42,4 +43,70 @@ body{
     border: none;
     background-color: #E55473;
     padding: 20px 40px;
+}
+
+/* Main Section */
+
+/* Bonus Section */
+.bonus-heading{
+    text-align: center;
+    margin-top: 80px;
+}
+.bonus-heading h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+.bonus-heading p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bonus-content{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+    gap: 40px;
+    margin-top: 100px;
+}
+.bonus-item{
+    text-align: center;
+}
+.bonus-image{
+    width: 300px;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.bonus-image img{
+    margin: 110px 45px 51px 45px;
+}
+
+.bonus-image-1 {
+    width: 300px;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.bonus-image-1 img{
+    margin: 110px 45px 51px 45px;
+}
+
+
+.bonus-image-2{
+    width: 300px;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.bonus-image-2 img{
+    margin: 65px 75px 0px 75px;
+}
+.bonus-content h4{
+    text-decoration: underline;
 }
