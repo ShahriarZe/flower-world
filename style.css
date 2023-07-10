@@ -75,7 +75,6 @@ body{
     text-align: center;
 }
 .bonus-image{
-    width: 300px;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -86,7 +85,6 @@ body{
 }
 
 .bonus-image-1 {
-    width: 300px;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -98,7 +96,6 @@ body{
 
 
 .bonus-image-2{
-    width: 300px;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -109,4 +106,41 @@ body{
 }
 .bonus-content h4{
     text-decoration: underline;
+}
+
+/* Sales Section */
+
+.sales-container{
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+}
+
+.sales-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 100px;
+    padding-bottom: 50px;
+
+}
+.sales-items h3{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+span{
+    color: #E55473;;
+}
+.sales-items p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 22px;
+    font-weight: 400;
+}
+.sales-container img{
+    width: 300px;
+}
+.sales-description{
+    text-align: center;
 }
