@@ -79,7 +79,7 @@ body{
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background-color: rgba(167, 33, 98, 0.15);
+    background-color: rgba(5, 151, 160, 0.15);
 }
 .bonus-image img{
     margin: 110px 45px 51px 45px;
@@ -89,7 +89,7 @@ body{
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background-color: rgba(5, 151, 160, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
 }
 .bonus-image-1 img{
     margin: 110px 45px 51px 45px;
