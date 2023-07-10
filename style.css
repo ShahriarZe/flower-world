@@ -1,0 +1,45 @@
+/* Body Styles */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header Section */
+
+.header-container{
+    height: 100vh;
+    background-image: url("./assets/pngwing\ 10.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: contain;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+} 
+
+.header-description{
+    text-align: left;
+    width: 70%
+}
+.header-description h1{
+    color: black;
+    font-size: 80px;
+    font-weight: 800;
+}
+.header-description p{
+    color: rgb(29, 28, 28);
+    font-size: 22px;
+    font-weight: 400;
+}
+.header-button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+    background-color: #E55473;
+    padding: 20px 40px;
+}
