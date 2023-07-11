@@ -8,7 +8,7 @@ body{
 /* Header Section */
 
 .header-container{
-    height: 100vh;
+    height: 90vh;
     background-image: url("./assets/pngwing\ 10.png");
     background-repeat: no-repeat;
     background-position:right;
@@ -67,7 +67,7 @@ body{
 .bonus-content{
     display: flex;
     justify-content: space-around;
-    width: 60%;
+    width: 50%;
     margin: auto;
     gap: 40px;
     margin-top: 100px;
@@ -107,6 +107,20 @@ body{
 }
 .bonus-content h4{
     text-decoration: underline;
+}
+
+/* Optional Part */
+
+.optional{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    width: 65%;
+    margin: auto;
+    padding: 85px 170px 70px 170px;
+    margin-top: 100px;
 }
 
 /* Sales Part */
@@ -239,7 +253,7 @@ span{
     background-size: cover;
     width: 75%;
     margin: auto;
-    padding: 40px;
+    padding: 55px;
 }
 .subscribe h2{
     color: #272727;
